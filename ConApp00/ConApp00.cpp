@@ -17,7 +17,7 @@ char tablero[][3] = { {'_','_','_'},
 
 char hayGanador(){
 	
-			//VALIDACIONES DE GANADOR
+	//VALIDACIONES DE GANADOR
 
 	//validacion horizontal
 	for (int i = 0; i < 3; i++){
@@ -95,13 +95,13 @@ void mostrarTablero(){
 	}
 
 	//IPEU
-	cout << "Turno de " << jugador << endl;
+	cout << endl << "Turno de " << jugador << endl;
 
-	cout << "En que fila desea jugar ? " << endl;
+	cout << endl << "En que fila desea jugar ? " << endl;
 	
 	cin >> fila;
 	
-	cout << "En que columna desea jugar? " << endl;
+	
 	
 	cin >> columna;
 	
@@ -115,6 +115,7 @@ void mostrarTablero(){
 		
 		cout << "Hay ganador " << ganador << endl;
 		system("PAUSE");
+		
 		
 	}
 
